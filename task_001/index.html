@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>checkbox</title>
+	<style type="text/css">
+		input{
+			display: none;
+		}
+		label{
+			display: block;
+			width:20px;
+			height: 20px;
+			background-image: url(http://olzcby4sc.bkt.clouddn.com/style.png);
+		}
+		#radioLabel{
+			background-position: 25% 25%;
+		}
+		#checkboxLabel{
+			background-position: 25% 100%;
+		}
+		#radioInput:checked + label{
+			background-position: 70% 25%;
+		}
+		#checkboxInput:checked + label{
+			background-position: 70% 100%;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<input id="radioInput" type="radio" name="radio">
+		<label id="radioLabel" for="radioInput"></label>
+	</div>
+	<div>
+		<input id="checkboxInput" type="checkbox" name="checkBox">
+		<label id="checkboxLabel" for="checkboxInput"></label>
+	</div>
+</body>
+</html>
