@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>task1</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		body{
+			margin: -15px 0px;
+			padding: 0px;
+			background-color: #f6e8e8;
+		}
+		#head{
+			background-image: url(http://offlintab.firefoxchina.cn/static/img/search/baidu_web.png);
+			background-repeat: no-repeat;
+			background-position: 20px 10px;
+			height: 50px;
+			background-color: #413737;
+		}
+		#footer{
+			height: 80px;
+			background-color: black;
+			text-align: center;
+			color: white;
+			line-height: 80px;
+		}
+		#head ul li{
+			float: right;
+			padding-right: 25px;
+			line-height: 50px;
+		}
+		#head ul li a{
+			font-size: 14px;
+			color: #f6e8e8;
+			text-decoration: none;
+		}
+		#content1,#content2,#content3,#content4,#content5{
+			margin: 15px;
+			padding: 15px;
+			background-color: white;
+			box-shadow: 2px 2px 3px 1px #9f9999;
+		}
+		#content3 .picture{
+			width: 100px;
+			text-align: center;
+			border: 1px solid;
+			margin: 20px;
+		}
+		.table {
+			width: 100%;
+			border-right: 1px solid #f6e8e8;
+			border-bottom: 1px solid #f6e8e8;
+		}
+		.table td{
+			border-left: 1px solid #f6e8e8;
+			border-top: 1px solid #f6e8e8;
+			padding-left: 10px;
+		}
+		.table thead{
+			background-color: #5a5353;
+			color: white;
+		}
+		.table tfoot{
+			background-color: #f6e8e8
+		}
+		.form{
+			width: 100%;
+		}
+		.form th{
+			width: 400px;
+			text-align: right;
+			font-weight: normal;
+			padding-right: 10px;
+		}
+		.form textarea{
+			width: 500px;
+		}
+		.form input[name='submit']{
+			display: block;
+			width: 100%;
+			height: 35px;
+			background-color: #4545f3;
+			color: white;
+			border-radius: 10px;
+		}
+		
+	</style>
+</head>
+<body>
+	<div id="head">
+		<ul>
+			<li><a href="http://www.baidu.com">导航链接四</a></li>
+			<li><a href="http://www.baidu.com">导航链接三</a></li>
+			<li><a href="http://www.baidu.com">导航链接二</a></li>
+			<li><a href="http://www.baidu.com">导航链接一</a></li>
+		</ul>
+	</div>
+	<div id="content1">
+		<h2>文章一级标题</h2>
+		<h3>文章二级级标题</h3>
+		<p>文章作者 文章发表时间</p>
+		<p>
+		这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了
+		<br>
+		这是一个很长很长的段落，这是一个很长很长的段落，换行了
+		<br>
+		这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com">这里有个链接链接到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<strong>这里有个粗体字</strong> 这是一个很长很长的段落，这是一个很长很长的段落。
+		</p>
+		<img src="http://olzcby4sc.bkt.clouddn.com/%E5%91%90%E5%96%8A2.jpg">
+		<p>
+		这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了
+		<br>
+		这是一个很长很长的段落，这是一个很长很长的段落，换行了
+		<br>
+		这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com" target="_blank">这里有个链接打开后打开新窗口链接到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<strong>这里有个粗体字</strong> 这是一个很长很长的段落，这是一个很长很长的段落。
+		</p>
+	</div>
+	<div id="content2">
+		<h2>另一篇文章一级标题</h2>
+		<h3>文章二级标题</h3>
+		<p>
+		这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了
+		<br>
+		这是一个很长很长的段落，这是一个很长很长的段落，换行了
+		<br>
+		这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com">这里有个链接链接到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<strong>这里有个粗体字</strong> 这是一个很长很长的段落，这是一个很长很长的段落。
+		</p>
+		<img src="http://olzcby4sc.bkt.clouddn.com/%E5%91%90%E5%96%8A2.jpg">
+		<ul>
+			<li>列表项目一</li>
+			<li>列表项目二</li>
+			<li>列表项目三</li>
+		</ul>
+	</div>
+	<div id="content3">
+		<h2>图片</h2>
+		<div class="picture">
+			<p>好看的图片</p>
+			<img src="http://olzcby4sc.bkt.clouddn.com/cf.jpg">
+		</div>
+		<div class="picture">
+			<p>好看的图片</p>
+			<img src="http://olzcby4sc.bkt.clouddn.com/cf.jpg">
+		</div>
+		<div class="picture">
+			<p>好看的图片</p>
+			<img src="http://olzcby4sc.bkt.clouddn.com/cf.jpg">
+		</div>
+		<div class="picture">
+			<p>好看的图片</p>
+			<img src="http://olzcby4sc.bkt.clouddn.com/cf.jpg">
+		</div>
+	</div>
+	<div id="content4">
+		<h2>最后一篇文章一级标题</h2>
+		<h3>文章二级标题</h3>
+		<p>文章作者 文章发表时间</p>
+		<ol>
+			<li>排名1</li>
+			<li>排名2</li>
+			<li>排名3</li>
+		</ol>
+		<p>下面是一个表格，给表格加了一个border="1"好让你看出是一个表格</p>
+		<table class='table' cellpadding="0" cellspacing="0">
+			<thead>
+				<tr>
+					<td>表头</td>
+					<td>表头</td>
+					<td>表头</td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>表内容单元格</td>
+					<td>表内容单元格</td>
+					<td><a href="http://www.baidu.com">操作</a></td>
+				</tr>
+				<tr>
+					<td>表内容单元格</td>
+					<td>表内容单元格</td>
+					<td><a href="http://www.baidu.com">操作</a></td>
+				</tr>
+				<tr>
+					<td>表内容单元格</td>
+					<td>表内容单元格</td>
+					<td><a href="http://www.baidu.com">操作</a></td>
+				</tr>
+				<tr>
+					<td>表内容单元格</td>
+					<td>表内容单元格</td>
+					<td><a href="http://www.baidu.com">操作</a></td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<td>总结</td>
+					<td colspan="2">1000</td>
+				</tr>
+				</tr>
+			</tfoot>
+		</table>
+	</div>
+	<div id="content5">
+		<h2>这里以后是一个侧栏，这是侧栏的标题</h2>
+		<h3>侧栏注册窗口标题</h3>
+		<table class="form">
+			<tr>
+				<th>请输入邮箱地址</th>
+				<td><input type="text" name="mail" placeholder="这是一个文本输入框"></td>
+			</tr>
+			<tr>
+				<th></th>
+				<td>邮箱地址请按要求格式输入</td>
+			</tr>
+			<tr>
+				<th>请输入密码</th>
+				<td><input type="text" name="mail" placeholder="这是一个文本输入框"></td>
+			<tr>
+				<th>请重复输入密码</th>
+				<td><input type="text" name="mail" placeholder="这是一个文本输入框"></td>
+			</tr>
+			<tr>
+				<th></th>
+				<td>密码请为6-16位英文数字</td>
+			</tr>
+			<tr>
+				<th>性别</th>
+				<td>
+					<label for="male">男</label>
+					<input type="radio" name="gender" value="male" id="male">
+					<label for="fmale">女</label>
+					<input type="radio" name="gender" value="fmale" id="fmale">
+				</td>
+			</tr>
+			<tr>
+				<th>城市</th>
+				<td>
+					<select>
+					<option>北京</option>
+					<option>济南</option>
+					<option>上海</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<th>爱好</th>
+				<td>
+					<input type="checkbox" name="hobby" id="sports">
+					<label id="sports">运动</label>
+					<input type="checkbox" name="hobby" id="art">
+					<label id="art">艺术</label>
+					<input type="checkbox" name="hobby" id="science">
+					<label id="science">科学</label>
+				</td>
+			</tr>
+			<tr>
+				<th>个人描述</th>
+				<td>
+					<textarea placeholder="这是一个多行输入框，输入您的个人描述"></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<input type="button" name="submit" value="确认提交">
+				</td>
+			</tr>
+		</table>
+	</div>
+	<div id="footer">
+		版权所有&copy;
+	</div>
+</body>
+</html>
